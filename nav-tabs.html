@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, Bootstrap contributors and Corpotec.net">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>Nav tabs | Example | Bootstrap v5.0 | Corpotec | Freelancer | Inida | Hyderabad</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/heroes/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+
+  </head>
+  <body>
+    <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+      <div class="container-fluid">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+       <svg  xmlns="http://www.w3.org/2000/svg" width="200.000000pt" height="50.000000pt" viewBox="5 5 826.000000 100.000000" preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,826.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
+      <path d="M1530 7800 c-140 -46 -232 -152 -259 -298 -28 -151 50 -297 199 -372
+      124 -63 252 -63 377 -2 62 31 144 105 131 118 -4 4 -13 3 -20 -2 -7 -6 -35
+      -27 -62 -47 -68 -52 -133 -73 -224 -72 -124 2 -209 53 -260 158 -105 212 16
+      478 228 503 127 15 211 -73 153 -161 -19 -28 -19 -46 -1 -46 11 0 120 143 120
+      158 0 6 -30 26 -67 44 -59 29 -77 33 -162 35 -73 2 -110 -2 -153 -16z"></path>
+      <path d="M2200 7800 c-159 -43 -276 -170 -296 -321 -13 -100 40 -231 123 -304
+      48 -43 146 -87 221 -101 194 -36 408 86 462 263 28 93 22 168 -20 254 -84 170
+      -297 261 -490 209z m214 -31 c105 -35 193 -164 203 -295 11 -152 -61 -289
+      -182 -348 -61 -30 -71 -32 -141 -28 -91 6 -150 38 -207 113 -54 71 -73 133
+      -73 235 1 102 28 171 96 245 83 90 190 117 304 78z"></path>
+      <path d="M2620 7800 c3 -5 21 -10 39 -10 17 0 37 -5 44 -12 9 -9 12 -91 12
+      -309 l0 -298 -26 -20 c-15 -12 -37 -21 -50 -21 -13 0 -24 -4 -24 -10 0 -6 59
+      -10 156 -10 101 0 153 3 149 10 -3 6 -17 10 -31 10 -28 0 -65 17 -76 34 -4 6
+      -8 75 -8 154 l0 142 70 0 c118 0 144 -27 195 -194 34 -113 71 -156 134 -156
+      46 0 95 21 104 44 10 25 -11 29 -39 7 -15 -12 -30 -21 -35 -21 -20 0 -41 38
+      -65 118 -32 108 -64 165 -110 196 l-36 24 30 16 c128 66 116 228 -22 292 -48
+      22 -63 24 -234 24 -120 0 -181 -3 -177 -10z m345 -32 c81 -41 112 -143 65
+      -214 -25 -38 -90 -64 -162 -64 l-63 0 0 125 c0 120 1 127 25 150 31 32 76 32
+      135 3z"></path>
+      <path d="M3160 7800 c0 -5 15 -10 34 -10 66 0 66 1 66 -318 0 -325 0 -327 -71
+      -338 -83 -14 -33 -24 116 -24 97 0 155 4 155 10 0 6 -15 10 -34 10 -19 0 -44
+      9 -57 19 l-24 19 -2 281 c-3 283 1 326 33 338 25 10 104 -15 142 -44 49 -37
+      72 -80 72 -136 0 -124 -85 -189 -179 -136 -40 22 -60 22 -46 -1 13 -21 89 -50
+      130 -50 74 0 150 50 174 113 41 107 -32 223 -165 263 -56 17 -344 20 -344 4z"></path>
+      <path d="M3950 7800 c-159 -43 -276 -170 -296 -321 -13 -100 40 -231 123 -304
+      48 -43 146 -87 221 -101 194 -36 408 86 462 263 28 93 22 168 -20 254 -84 170
+      -297 261 -490 209z m214 -31 c105 -35 193 -164 203 -295 11 -152 -61 -289
+      -182 -348 -61 -30 -71 -32 -141 -28 -91 6 -150 38 -207 113 -54 71 -73 133
+      -73 235 1 102 28 171 96 245 83 90 190 117 304 78z"></path>
+      <path d="M4950 7850 l-28 -25 -235 0 c-176 0 -233 3 -232 12 2 6 -4 13 -12 15
+      -14 3 -123 -150 -122 -172 1 -25 23 -12 52 30 47 69 80 85 173 85 l77 0 0
+      -299 c0 -287 -1 -299 -21 -325 -15 -19 -30 -26 -56 -26 -23 0 -33 -4 -31 -12
+      4 -10 46 -14 157 -16 121 -2 152 0 149 10 -3 7 -23 16 -46 19 -23 3 -45 9 -49
+      13 -5 4 -10 149 -13 322 l-5 314 92 0 c81 0 94 -2 103 -19 7 -13 7 -28 0 -46
+      -10 -28 -6 -45 11 -45 9 0 67 116 83 168 10 30 -11 29 -47 -3z"></path>
+      <path d="M4950 7800 c0 -5 15 -10 34 -10 66 0 66 1 66 -321 l0 -290 -25 -24
+      c-15 -16 -36 -25 -55 -25 -16 0 -30 -4 -30 -10 0 -6 101 -10 284 -10 l283 0
+      17 43 c9 23 16 52 16 63 0 22 -29 54 -48 54 -17 0 -15 -10 5 -32 53 -59 -127
+      -122 -292 -102 l-70 9 -3 153 -3 152 121 0 c115 0 122 -1 145 -25 14 -13 25
+      -33 25 -45 0 -11 7 -20 15 -20 13 0 15 16 13 102 -2 70 -7 103 -15 106 -8 2
+      -13 -5 -13 -16 0 -12 -12 -30 -27 -42 -24 -19 -37 -20 -142 -18 l-116 3 0 140
+      0 140 113 3 c94 2 120 -1 157 -17 36 -16 46 -26 56 -60 7 -23 18 -41 26 -41
+      14 0 17 31 7 104 l-7 46 -268 0 c-173 0 -269 -4 -269 -10z"></path>
+      <path d="M5700 7800 c-140 -46 -232 -152 -259 -298 -28 -151 50 -297 199 -372
+      124 -63 252 -63 377 -2 62 31 144 105 131 118 -4 4 -13 3 -20 -2 -7 -6 -35
+      -27 -62 -47 -68 -52 -133 -73 -224 -72 -124 2 -209 53 -260 158 -105 212 16
+      478 228 503 127 15 211 -73 153 -161 -19 -28 -19 -46 -1 -46 11 0 120 143 120
+      158 0 6 -30 26 -67 44 -59 29 -77 33 -162 35 -73 2 -110 -2 -153 -16z"></path>
+      </g>
+    </svg></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">Aboutus</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown10">
+          <li><a class="dropdown-item" href="album.html">Album</a></li>
+          <li><a class="dropdown-item" href="carousel.html">carousel</a></li>
+          <li><a class="dropdown-item" href="heroes.html">Heroes</a></li>
+          <li><a class="dropdown-item" href="cover.html">cover</a></li>
+          <li><a class="dropdown-item" href="jumbotron.html">Jumbotron</a></li>
+          <li><a class="dropdown-item" href="sign-in.html">Signin</a></li>
+          <li><a class="dropdown-item" href="pages-columns.html">Pages-columns</a></li>
+          <li><a class="dropdown-item" href="pricing.html">Pricing Plans</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Components</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown10">
+          <li><a class="dropdown-item" href="accordion.html">Accordion</a></li>
+          <li><a class="dropdown-item" href="alerts.html">Alerts</a></li>
+          <li><a class="dropdown-item" href="badge.html">Badge</a></li>
+          <li><a class="dropdown-item" href="breadcrumb.html">Breadcrumb</a></li>
+          <li><a class="dropdown-item" href="button-group.html">Button-Group</a></li>
+          <li><a class="dropdown-item" href="buttons.html">Buttons</a></li>
+          <li><a class="dropdown-item" href="card.html">Card</a></li>
+        </li>
+      </ul>
+    </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown10"> 
+          <li><a class="dropdown-item" href="dropdowns.html">Dropdowns</a></li>
+          <li><a class="dropdown-item" href="list-group.html">listgroup</a></li>
+          <li><a class="dropdown-item" href="modal.html">modal</a></li>
+          <li><a class="dropdown-item" href="navbar.html">navbar</a></li>
+          <li><a class="dropdown-item" href="nav-tabs.html">navtabs</a></li>
+          <li><a class="dropdown-item" href="pagination.html">pagination</a></li>
+          <li><a class="dropdown-item" href="progress.html">progress bar</a></li>
+          <li><a class="dropdown-item" href="spinners.html">spinners</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown10"> 
+          <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+          <li><a class="dropdown-item" href="single-page.html">Single Page</a></li>
+          <li><a class="dropdown-item" href="blog-sidebar.html">Sidebar</a></li>
+          <li><a class="dropdown-item" href="posts.html">Posts page</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="samplepage.html">Sample Page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  
+  </nav>
+  </div>
+  </header>
+<main>
+  <div class="container px-4 py-5">
+        <div class="container px-4 py-5 rounded-3 border shadow-lg">
+<h1 >Nav-tabs Examples</h1>
+<h2 >Nav-tab Example 1</h2>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+<h2 >Nav-tab Example 2</h2>
+<nav class="nav">
+  <a class="nav-link active" aria-current="page" href="#">Active</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+</nav>
+
+<h2 >Nav-tab Example 3</h2>
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<h2 >Nav-tab Example 4</h2>
+
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<h2 >Nav-tab Example 5</h2>
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+<h2 >Nav-tab Example 6</h2>
+<nav class="nav flex-column">
+  <a class="nav-link active" aria-current="page" href="#">Active</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+</nav>
+<h2 >Nav-tab Example 7</h2>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<h2 >Nav-tab Example 8</h2>
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+<h2 >Nav-tab Example 9</h2>
+<ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Much longer nav link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<h2 >Nav-tab Example 10</h2>
+<ul class="nav nav-pills nav-justified">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Much longer nav link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<h2 >Nav-tab Example 11</h2>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<h2 >Nav-tab Example 12</h2>
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+<h2 >Nav-tab Example 13</h2>
+<div class="bd-example">
+  <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <p><strong>This is some placeholder content the Home tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <p><strong>This is some placeholder content the Profile tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+    </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+      <p><strong>This is some placeholder content the Contact tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+    </div>
+  </div>
+</div>
+<h2 >Nav-tab Example 14</h2>
+
+<div class="bd-example">
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+      <p><strong>This is some placeholder content the Home tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+      <p><strong>This is some placeholder content the Profile tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+      <p><strong>This is some placeholder content the Messages tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      <p><strong>This is some placeholder content the Settings tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<h2 >Nav-tab Example 15 without JS</h2>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+</div>
+
+  </div>
+</div>
+  </main>
+       <footer class="container py-0">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src= "assets/img/logo.png" width="50" height="50">
+          <small class="d-block mb-3 text-muted">&copy; corpotec.net 2021<br>This theme developed based on Bootstrap 5.0 with love<br>corpotec1@gmail.com.</small>
+                  
+
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary" href="#">Random feature</a></li>
+            <li><a class="link-secondary" href="#">Team feature</a></li>
+            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Resource name</a></li>
+            <li><a class="link-secondary" href="#">Resource</a></li>
+            <li><a class="link-secondary" href="#">Another resource</a></li>
+            <li><a class="link-secondary" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Business</a></li>
+            <li><a class="link-secondary" href="#">Education</a></li>
+            <li><a class="link-secondary" href="#">Government</a></li>
+            <li><a class="link-secondary" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Team</a></li>
+            <li><a class="link-secondary" href="#">Locations</a></li>
+            <li><a class="link-secondary" href="#">Privacy</a></li>
+            <li><a class="link-secondary" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </footer>
+        <script src="assets/js/bootstrap.js"></script>
+        
+      </body>
+    </html>
